@@ -3,9 +3,9 @@ package addBigNumber;
 import java.math.BigInteger;
 
 public class addBigNumber{
-	public static void main( String... numbers ){
+	public static void main( String... parameters ){
 		try{
-			BigInteger sum = addBigNumber( numbers );
+			BigInteger sum = addBigNumber( parameters );
 			System.out.print( sum.toString( ) );
 		}catch( Exception exception ){
 			System.err.print( exception.getMessage( ) );
